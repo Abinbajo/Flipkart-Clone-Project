@@ -1,0 +1,33 @@
+#products{
+    display:flex;
+    
+}
+#top-menu > span{
+    padding: 5px;
+    margin: 5px;
+    font-family:sans-serif;
+
+}
+
+#collection{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    
+    
+}
+#collection > div {
+    
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.avatar{
+    height: 200px;
+    width: 150px;
+}
+
+.innerbox{
+    display:flex;
+    justify-content: space-around;
+}
+
+

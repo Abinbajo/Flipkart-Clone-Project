@@ -1,0 +1,246 @@
+*para1{
+    border: 4px solid orange;
+}
+
+body {
+    margin: 0;
+    background-color: #f0f0f0; /* Light grey color */
+}
+
+
+#nav{
+    background-color: white;
+    display: flex;
+    justify-content:space-around ;
+    padding: 10px 20px;
+    
+}
+#input_data{
+    border: none;
+    width: 350px;
+    height: 20px;
+    padding-left: 12px;
+    background-color: #F0F5FF;
+}
+
+.navtab{
+    display:flex;
+    align-items: center;
+
+}
+
+#searchbar{
+    width: 40%;
+    background-color: #F0F5FF;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+
+#categories{
+    font-family: sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    margin:10px; 
+    
+
+}
+
+#categories > div > img{
+    height: 60px;
+    width : 70px;
+}
+
+#categories > div{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+#footer {
+    background-color: #212121;
+    color: white;
+    display: flex;
+    justify-content: space-around; /* Spread out sections evenly */
+    padding: 50px 20px; /* Adjust padding for top/bottom and left/right */
+   
+}
+
+
+
+#footer .heading {
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 10px; /* Space between heading and list items */
+    font-weight: lighter;
+}
+
+#footer li {
+    list-style: none;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+
+.vertical-line {
+    width: 1px; /* Set the width for the vertical line */
+    background-color: grey; /* Set color for the vertical line */
+    margin: 0 20px; /* Adjust horizontal spacing */
+   
+}
+.container{
+    max-width: 1334px;
+    margin: auto;
+}
+
+
+
+.productsectin1{
+    height: 345px;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.psright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.psright img{
+    height: 320px;
+    width: 210px;
+    
+}
+
+.psleft{
+    height: 100%;
+    width: 1100px;
+    background-color: white;
+}
+
+.productheader{
+    height: 80px;
+    width: 100%;
+    padding: 0px 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.productheader h3{
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #212121;
+}
+.productheader i{
+    
+    height: 24px;
+    width: 24px;
+    color: white;
+    background-color: #1c41dc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+}
+
+.product{
+    height: 250px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px groove #bdbdbd;
+    border-radius: 3px;
+    margin: 0px 13px;
+}
+.product img{
+    height: 145px;
+    width: 185px;
+    padding: 0px 10px;
+}
+
+.productinfo{
+    text-align: center;
+    margin-top: 30px;
+}
+.productinfo p{
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    
+}
+.productinfo h5{
+    font-size: 15px;
+    color: #212121;
+    margin-top: 5px;
+}
+
+.productgroup{
+    display: flex;
+   overflow: hidden;
+   position: relative;
+}
+
+.productright{
+    position: absolute;
+    height: 88px;
+    width: 40px;
+    background-color:white ;
+    color: #8B8B8B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 32%;
+    right: 0;
+    -webkit-box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+-moz-box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+box-shadow: -2px 0px 3px 1px rgba(222, 222, 222, 1);
+}
+
+
+.productsectin2{
+    height: 345px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.psleft2{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.branddirectory{
+    height: 570px;
+    width: 100%;
+    padding-top: 50px;
+    margin-top: 20px;
+    color: #565656; 
+    background-color: #eeeeee;
+}
+.linkheader{
+    padding-left: 15px;
+}
+
+.directorylink{
+    margin-top: 0px;
+    padding-left: 15px;
+    
+}
+
+.directorylink span{
+    font-size: 0.9rem;
+}
+.directorylink a{
+    font-size: 0.8rem;
+    color: #565656; 
+}
+
+

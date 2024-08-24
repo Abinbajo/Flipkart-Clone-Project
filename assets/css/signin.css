@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#outerbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    margin-top: 14px;
+}
+
+#innerbox {
+    display: flex;
+    background-color: white;
+    width: 60%;
+    max-width: 800px; /* Optional: limit the maximum width */
+    height: 500px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better appearance */
+}
+
+.leftinnerbox {
+    background-color: #2874F0;
+    color: white;
+    width: 45%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.leftinnerbox p {
+    margin-bottom: 20px; /* Add margin between paragraphs */
+}
+.leftinnerbox p:first-of-type {
+    margin-top: 30px; /* Space above the first paragraph */
+}
+
+.rightinnerbox {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top:px;
+}
+
+.rightinnerbox input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Space between input and buttons */
+}
+
+.rightinnerbox button {
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 10px; /* Space between buttons */
+}
+
+.rightinnerbox .continue-btn {
+    background-color: #FB641B;
+    color: white;
+    font-size: 17px;
+}
+
+.rightinnerbox .login-btn {
+    background-color: whitesmoke;
+    color: #2874F0;
+    font-size: 15px;
+}
+
+.terms {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px; 
+}
+.rightinnerbox input[type="number"] {
+    border: none;            
+    border-bottom: 1px solid #000; 
+    outline: none; 
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%; 
+  }

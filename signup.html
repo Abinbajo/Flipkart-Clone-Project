@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./assets/css/index.css">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+    <script src="./js/signup.js" defer></script>
+
+</head>
+<body>
+    <div id="container"></div>
+
+    <div id="outerbox">
+        <div id="innerbox">
+            <div class="leftinnerbox">
+                <p style="font-family:sans-serif; font-weight: bold; font-size: 25px;">Looks like you're new here!</p>
+                <p style="font-weight: lighter; font-size: 18px;">Sign up with your mobile number to get started</p>
+                <div style="display: flex;align-items: center;justify-content: center;margin-top: 30px;width: 100%;">
+                    <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/login_img_c4a81e.png" alt="hero_signup">
+                   </div>
+            </div>
+            <div class="rightinnerbox">
+                <input id="phone" type="number" placeholder="Enter Mobile Number">
+                <p class="terms">By continuing, you agree to Flipkart's Terms of Use and Privacy Policy.</p>
+                <button type="button" class="continue-btn"
+                onclick="Signup()" >CONTINUE</button>
+                <button type="button" class="login-btn" onclick="Login()">Existing User? Log in</button>
+
+            </div>
+        </div>    
+    </div>
+    
+    <script>
+        $(function(){
+            $("#container").load("./navbar.html");
+        });
+    </script>
+</body>
+</html>

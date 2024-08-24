@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/product.css" />
+    <script src="./js/product.js"></script>
+    <script>
+      $(function () {
+        $("#container").load("./navbar.html");
+      });
+    </script>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+
+    <section id="products">
+      <div style="width: 20%; border: 1px solid white; height: 100vh">
+        <p>Filters</p>
+      </div>
+      <div style="width: 75%; border: 1px solid white">
+        <div style="display: flex;" id="top-menu">
+          <span>Sort By</span>
+          <span>Popularity</span>
+
+          <span>Price -- Low to high</span>
+          <span>Price -- High to low</span>
+        </div>
+        <div id="collection"></div>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div>
+        <li class="heading">ABOUT</li>
+        <li>Contact Us</li>
+        <li>About Us</li>
+        <li>Careers</li>
+        <li>Flipkart stories</li>
+        <li>Press</li>
+        <li>Corporate Information</li>
+      </div>
+      <div>
+        <li class="heading">GROUP COMPANIES</li>
+        <li>Myntra</li>
+        <li>Cleartrip</li>
+        <li>Shopsy</li>
+      </div>
+      <div>
+        <li class="heading">HELP</li>
+        <li>Payments</li>
+        <li>Shipping</li>
+        <li>Cancellation & Returns</li>
+        <li>FAQ</li>
+        <li>Report infringement</li>
+      </div>
+      <div>
+        <li class="heading">CONSUMER POLICY</li>
+        <li>Cancellation & Returns</li>
+        <li>Terms Of Use</li>
+        <li>Security</li>
+        <li>Privacy</li>
+        <li>Sitemap</li>
+        <li>Grievance Redressal</li>
+        <li>EPR Compliance</li>
+      </div>
+      <div class="vertical-line"></div>
+
+      <div>
+        <li class="heading">Mail US:</li>
+        <li>Flipkart Internet Private Limited</li>
+        <li>Buildings Alyssa,Begonia &</li>
+        <li>Clove Embassy Tech Villlage,</li>
+        <li>Outer Ring Road,Devarabeesanahalli Village,</li>
+        <li>Bengaluru, 560103,</li>
+        <li>Karnataka, India</li>
+
+        <li class="heading" style="margin-top: 10px">social:</li>
+        <li>
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjkzMzEgMjFDMTcuOTAzNyAyMSAyMS45MzMxIDE2Ljk3MDYgMjEuOTMzMSAxMkMyMS45MzMxIDcuMDI5NDQgMTcuOTAzNyAzIDEyLjkzMzEgM0M3Ljk2MjU0IDMgMy45MzMxMSA3LjAyOTQ0IDMuOTMzMTEgMTJDMy45MzMxMSAxNi45NzA2IDcuOTYyNTQgMjEgMTIuOTMzMSAyMVoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE2LjY4MzEgOC4yNUgxNS4xODMxQzE0LjU4NjQgOC4yNSAxNC4wMTQxIDguNDg3MDUgMTMuNTkyMSA4LjkwOTAxQzEzLjE3MDIgOS4zMzA5NyAxMi45MzMxIDkuOTAzMjYgMTIuOTMzMSAxMC41VjIxIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjkzMzExIDEzLjVIMTUuOTMzMSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K"
+            alt=""
+          />
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE4M18yMCkiPgo8cGF0aCBkPSJNMTMuNTQzNiAxMC42MTc5TDIwLjA5NzEgM0gxOC41NDQxTDEyLjg1MzcgOS42MTQ0OEw4LjMwODg3IDNIMy4wNjY4OUw5LjkzOTY0IDEzLjAwMjNMMy4wNjY4OSAyMC45OTA4SDQuNjE5OTRMMTAuNjI5MSAxNC4wMDU2TDE1LjQyODggMjAuOTkwOEgyMC42NzA4TDEzLjU0MzIgMTAuNjE3OUgxMy41NDM2Wk0xMS40MTY1IDEzLjA5MDRMMTAuNzIwMiAxMi4wOTQ0TDUuMTc5NTMgNC4xNjkxMUg3LjU2NDkxTDEyLjAzNjMgMTAuNTY1MUwxMi43MzI2IDExLjU2MTFMMTguNTQ0OCAxOS44NzQ4SDE2LjE1OTVMMTEuNDE2NSAxMy4wOTA4VjEzLjA5MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE4M18yMCI+CjxyZWN0IHg9IjMuMDY2ODkiIHk9IjMiIHdpZHRoPSIxNy42MDM5IiBoZWlnaHQ9IjE4IiByeD0iMC4yIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo="
+            alt=""
+          />
+          <img
+            src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-8425c4.svg"
+            alt=""
+          />
+        </li>
+      </div>
+      <div>
+        <li class="heading">Registered Office Address:</li>
+        <li>Flipkart Internet Private Limited,</li>
+        <li>Buildings Alyssa,Begonia &</li>
+        <li>Clove Embassy Tech Villlage,</li>
+        <li>Outer Ring Road,Devarabeesanahalli Village,</li>
+        <li>Bengaluru, 560103,</li>
+        <li>Karnataka, India</li>
+        <li>CIN:U51109KA2012PTC066107</li>
+        <li>Telephone: 044-45614700/044-67415800</li>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
